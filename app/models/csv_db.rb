@@ -14,5 +14,6 @@ class CsvDb
          end
       end
     end
+    handle_asynchronously :convert_save
   end
 end
